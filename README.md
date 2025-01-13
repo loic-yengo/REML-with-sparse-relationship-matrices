@@ -1,1 +1,1 @@
-This folders contains a script ro run linear mixed model analyses with sparse genomic relationship matrices and an example script simulating data for siblings pairs and using the sparseREML() function to re-estimate parameters.
+This folders contains a script (sparseREML_v0.6_toshare.R) ro run linear mixed model analyses with sparse genomic relationship matrices and an example script (Example.R) simulating data for siblings pairs and using the sparseREML() function to re-estimate parameters.
