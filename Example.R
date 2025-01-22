@@ -1,5 +1,6 @@
 library(MASS)
 ## Simulate data for example...
+set.seed(22052025)
 hsq <- 0.6
 csq <- 0.1
 Np <- 100000 # number of sibling pairs
@@ -31,11 +32,11 @@ write.table(cbind(iid,iid,c(t(Y))),"Example_data.pheno.txt",quote=F,row.names = 
 
 ## Run test
 source("sparseREML_v0.6_toshare.R")
-model_AE   <- sparseREML(prefixGRM="Example_data",
+model_ACE   <- sparseREML(prefixGRM="Example_data",
                          phenoFile="Example_data.pheno.txt",
                          covarFile="Example_data.covar.txt",
                          model="ACE",
                          verbose = TRUE,algorithm = "ML")
 
-print(model_AE)
+print(model_ACE)
 
