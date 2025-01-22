@@ -1,11 +1,13 @@
 This folders contains a script (`sparseREML_v0.6_toshare.R`) ro run linear mixed model analyses with sparse genomic relationship matrices and an example script (`Example.R`) simulating data for siblings pairs and using the sparseREML() function to re-estimate parameters.
 
-REQUIREMENTS
+REQUIREMENTS\\
+
 This code runs under any OS that can run the software package R.
 The main function depends on the R package `Matrix`, which handles sparse matrices.
 The simulation function also requires the R package `MASS` to simulate multivariate normal distribution. 
 
-RUNNING THE EXAMPLE
+RUNNING THE EXAMPLE\\
+
 To run the example you can simply "source" the file as
 
 R_prompt> `source("Example.R")`
