@@ -14,8 +14,8 @@ The code should run in less than 30 seconds and print the results of the analysi
 The simulation data consist of N=100,000 sibling pairs with their simulated relatedness (object G: `summary(G)`) ranging between 0.34 and 0.68 and their simulated phenotypes.
 Phenotypes are simulated to have an expected mean of 0 and an expected variance of 1. The heritability of the trait is `hsq=0.6` and the variance explained by shared environmental effects is `csq=0.1`.
 
-The result of analysis are in the R object `model_AE`
+The result of analysis are in the R object `model_ACE`
 
-R_prompt> `print(model_AE$h2_g)`
+R_prompt> `print(model_ACE$h2_g)`
 
-The estimated heritability is 0.532 (s.e. 0.065) and the estimated shared environmental effect is 0.065 (0.033).
+The estimated heritability is 0.676 (s.e. 0.064) and the estimated shared environmental effect is 0.064 (0.032).
